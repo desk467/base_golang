@@ -10,7 +10,7 @@ RUN --mount=type=cache,target=/root/.cache/go-build \
 
 FROM base AS unit-test
 RUN --mount=type=cache,target=/root/.cache/go-build \
-    go test -v .
+    go test -v ./...
 
 FROM golangci/golangci-lint:v1.46.2-alpine as lint-base
 
