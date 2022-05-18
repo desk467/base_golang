@@ -16,6 +16,13 @@ Com as dependências instaladas, você pode executar o projeto via:
 $ make run
 ```
 
+Alternativamente, para rodar em modo watcher, execute:
+```shell
+$ make run-watch
+```
+
+A partir daí, qualquer alteração em arquivos Go do projeto, restartarão a app.
+
 ## Desenvolvimento
 
 Este projeto contém alguns arquivos que facilitam o desenvolvimento e debugging via Visual Studio Code. Ao abrir o projeto,

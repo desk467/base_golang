@@ -104,3 +104,6 @@ fabric.properties
 .vscode/
 !.vscode/extensions.json
 !.vscode/launch.json
+
+# Air
+tmp/
